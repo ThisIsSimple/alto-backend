@@ -198,12 +198,20 @@ JWT_AUTH = {
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = [
-    '127.0.0.1',
-    '127.0.0.1:3000',
-    'localhost',
-    'localhost:3000',
-    '158.247.197.250',
-    '158.247.197.250:3000',
-    'rumia.gg',
-    'rumia.gg:3000',
+    'http://127.0.0.1',
+    'https://127.0.0.1',
+    'http://127.0.0.1:3000',
+    'https://127.0.0.1:3000',
+    'http://localhost',
+    'https://localhost',
+    'http://localhost:3000',
+    'https://localhost:3000',
+    'http://158.247.197.250',
+    'https://158.247.197.250',
+    'http://158.247.197.250:3000',
+    'https://158.247.197.250:3000',
+    'http://rumia.gg',
+    'https://rumia.gg',
+    'http://rumia.gg:3000',
+    'https://rumia.gg:3000',
 ]
