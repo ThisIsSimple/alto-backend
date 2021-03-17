@@ -33,7 +33,9 @@ SECRET_KEY = '2q=@qv#)g&x0vugnr4=gh-3$ng0fir1%wp^e1gdztog-h%hmw1'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '158.247.197.250'
+    '158.247.197.250',
+    'rumia.gg',
+    'api.rumia.gg',
 ]
 
 
@@ -195,8 +197,10 @@ JWT_AUTH = {
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
-# CORS_ORIGIN_WHITELIST = [
-#     'http://localhost:3000',
-#     'http://158.247.197.250',
-#     'http://158.247.197.250:3000',
-# ]
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+    'http://158.247.197.250',
+    'http://158.247.197.250:3000',
+    'http://rumia.gg',
+    'http://rumia.gg:3000',
+]
