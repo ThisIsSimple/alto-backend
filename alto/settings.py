@@ -36,6 +36,7 @@ ALLOWED_HOSTS = [
     '158.247.197.250',
     'rumia.gg',
     'api.rumia.gg',
+    'localhost',
 ]
 
 

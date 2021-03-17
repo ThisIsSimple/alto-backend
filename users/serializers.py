@@ -16,17 +16,21 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
 class UserCreateSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
+        print("create")
         print(validated_data)
+        print(make_password(validated_data['password']))
         user = CustomUser.objects.create_user(
             username=validated_data.pop('username'),
-            password=make_password(
-                validated_data.pop('password')
-            ),
+            # password=make_password(
+            #     validated_data.pop('password')
+            # ),
+            password=validated_data.pop('password'),
             **validated_data
         )
         return user
 
     def update(self, instance, validated_data):
+        print("update")
         if 'user' in validated_data:
             instance.user.password = make_password(
                 validated_data.get('user').get(
