@@ -31,10 +31,14 @@ def jwt_payload_handler(user):
         'profile': user.profile,
         'phone': user.phone,
         'birthday': user.birthday.__str__(),
-        'rank': user.rank.name,
-        'level': user.rank.level,
         'exp': datetime.utcnow() + api_settings.JWT_EXPIRATION_DELTA
     }
+
+    try:
+        payload['rank'] = user.rank.name
+        payload['level'] = user.rank.level
+    except:
+        pass
 
     try:
         payload['profile_image'] = BASE_URL + user.profile_image.url
