@@ -50,7 +50,4 @@ class TaskProgress(models.Model):
     updated_at = models.DateTimeField(_("updated_at"), auto_now=True)
 
     def __str__(self):
-        return "{} : {} -> {}".format(self.task.name, self.ordered_by.name, self.ordered_to.name)
-
-
-# class TaskChecklist ...
+        return "{} : {} -> {}".format(self.task.task_name, self.ordered_by.name, self.ordered_to.name)

@@ -13,14 +13,14 @@ class ReportViewSet(viewsets.ModelViewSet):
     serializer_class = ReportSerailizer
 
 
-class TaskReportViewSet(viewsets.ModelViewSet):
+class TaskProgressReportViewSet(viewsets.ModelViewSet):
     def get_serializer_class(self):
         if self.action == 'create':
             return ReportCreateSerailizer
         return ReportSerailizer
 
     def get_queryset(self):
-        return Report.objects.filter(task=self.kwargs['task_pk'])
+        return Report.objects.filter(task_progress=self.kwargs['task_progress_pk'])
 
     queryset = Report.objects.all()
     serializer_class = ReportSerailizer

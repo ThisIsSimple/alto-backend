@@ -3,7 +3,7 @@ from rest_framework import serializers
 from django.apps import apps
 from rest_framework_nested.serializers import NestedHyperlinkedModelSerializer
 from users.serializers import UserSimpleSerializer
-from reports.serializers import ReportSimpleSerailizer
+from reports.serializers import ReportSerailizer
 
 
 class TaskProgressCreateSerailizer(serializers.ModelSerializer):
@@ -16,7 +16,7 @@ class TaskProgressCreateSerailizer(serializers.ModelSerializer):
 class TaskProgressSerailizer(serializers.ModelSerializer):
     ordered_by = UserSimpleSerializer(many=False, read_only=True)
     ordered_to = UserSimpleSerializer(many=False, read_only=True)
-    report = ReportSimpleSerailizer(many=False, read_only=True)
+    report = ReportSerailizer(many=True, read_only=True)
 
     class Meta:
         model = TaskProgress

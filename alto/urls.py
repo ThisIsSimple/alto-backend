@@ -53,7 +53,6 @@ user_router.register(r'tasks/received',
 task_router = nestedRouter.NestedSimpleRouter(router, r'tasks', lookup='task')
 task_router.register(r'progresses', tasksView.TaskTaskProgressViewSet)
 task_router.register(r'attachments', attachmentsView.TaskAttachmentViewSet)
-task_router.register(r'report', reportsView.TaskReportViewSet)
 
 urlpatterns = [
     path('api-token-auth/', obtain_jwt_token),
