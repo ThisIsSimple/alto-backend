@@ -8,17 +8,18 @@ class ReportSerailizer(serializers.ModelSerializer):
     class Meta:
         model = Report
         fields = ['id', 'task_progress', 'report_name',
-                  'report_content', 'created_at']
+                  'report_content', 'created_at', 'updated_at']
 
 
 class ReportSimpleSerailizer(serializers.ModelSerializer):
     class Meta:
         model = Report
-        fields = ['id', 'report_name', 'report_content', 'created_at']
+        fields = ['id', 'report_name', 'report_content',
+                  'created_at', 'updated_at']
 
 
 class ReportCreateSerailizer(serializers.ModelSerializer):
     class Meta:
         model = Report
         fields = ['id', 'task_progress', 'report_name',
-                  'report_content', 'created_at']
+                  'report_content', 'created_at', 'updated_at']

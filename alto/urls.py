@@ -54,6 +54,15 @@ task_router = nestedRouter.NestedSimpleRouter(router, r'tasks', lookup='task')
 task_router.register(r'progresses', tasksView.TaskTaskProgressViewSet)
 task_router.register(r'attachments', attachmentsView.TaskAttachmentViewSet)
 
+progress_router = nestedRouter.NestedSimpleRouter(
+    router, r'task_progresses', lookup='task_progress')
+progress_router.register(
+    r'report', reportsView.TaskProgressReportViewSet)
+
+report_router = nestedRouter.NestedSimpleRouter(
+    router, r'reports', lookup='report')
+report_router.register(r'attachments', attachmentsView.ReportAttachmentViewSet)
+
 urlpatterns = [
     path('api-token-auth/', obtain_jwt_token),
     path('api-token-refresh/', refresh_jwt_token),
@@ -62,6 +71,8 @@ urlpatterns = [
     path('', include(router.urls)),
     path('', include(user_router.urls)),
     path('', include(task_router.urls)),
+    path('', include(progress_router.urls)),
+    path('', include(report_router.urls)),
 
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),

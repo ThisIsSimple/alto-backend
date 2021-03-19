@@ -24,3 +24,17 @@ class TaskAttachmentViewSet(viewsets.ModelViewSet):
 
     queryset = Attachment.objects.all()
     serializer_class = AttachmentViewSerializer
+
+
+class ReportAttachmentViewSet(viewsets.ModelViewSet):
+    def get_serializer_class(self):
+        if self.action == 'create':
+            return AttachmentCreateSerializer
+        return AttachmentViewSerializer
+
+    def get_queryset(self):
+        print(self.kwargs)
+        return Attachment.objects.filter(parent_type="report", parent=self.kwargs['report_pk'])
+
+    queryset = Attachment.objects.all()
+    serializer_class = AttachmentViewSerializer
