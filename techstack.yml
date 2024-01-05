@@ -1,7 +1,8 @@
 repo_name: ThisIsSimple/alto-backend
 report_id: 5ccbc273d5902b7dbe2514d0e78b96b4
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-30T18:28:55+00:00'
+timestamp: '2024-01-05T08:30:01+00:00'
 requested_by: ThisIsSimple
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -45,6 +49,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -59,7 +64,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -70,18 +75,18 @@ tools:
     detected_date: Sep 23
     severity: critical
     first_patched: 3.1.13
-  - name: Path Traversal in Django
-    cve_id: CVE-2021-31542
-    cve_url: https://github.com/advisories/GHSA-rxjp-mfm9-w4wr
-    detected_date: Aug 22
-    severity: high
-    first_patched: 3.1.9
   - name: Potential bypass of an upstream access control based on URL paths in Django
     cve_id: CVE-2021-44420
     cve_url: https://github.com/advisories/GHSA-v6rh-hp5x-86rv
     detected_date: Dec 14
     severity: high
     first_patched: 3.1.14
+  - name: Path Traversal in Django
+    cve_id: CVE-2021-31542
+    cve_url: https://github.com/advisories/GHSA-rxjp-mfm9-w4wr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.9
   - name: Directory Traversal in Django
     cve_id: CVE-2021-28658
     cve_url: https://github.com/advisories/GHSA-xgxc-v2qg-chmh
@@ -104,7 +109,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19908/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -118,7 +123,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19883/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -132,7 +137,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20739/default_88a4948f616ae7ccb7210803d2bd72b72851b6e9.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -146,7 +151,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -173,7 +178,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -187,7 +192,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -202,17 +207,11 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
   vulnerabilities:
-  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
-    cve_id: CVE-2023-49083
-    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
-    detected_date: Nov 29
-    severity: critical
-    first_patched: 41.0.6
   - name: Vulnerable OpenSSL included in cryptography wheels
     cve_id: CVE-2023-0286
     cve_url: https://github.com/advisories/GHSA-x4qr-2fvf-3mr5
@@ -226,6 +225,12 @@ tools:
     detected_date: Feb 8
     severity: moderate
     first_patched: 39.0.1
+  - name: cryptography vulnerable to NULL-dereference when loading PKCS7 certificates
+    cve_id: CVE-2023-49083
+    cve_url: https://github.com/advisories/GHSA-jfhm-5ghh-2f97
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 41.0.6
   - name: pyca/cryptography's wheels include vulnerable OpenSSL
     cve_id: 
     cve_url: https://github.com/advisories/GHSA-jm77-qphf-c4w8
@@ -254,7 +259,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20210/default_6796c4086c025d18cdc673750b208b846d8e0914.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -268,7 +273,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20541/default_6bb78422f08f1851c01cfa4b478c846cfd09d1ba.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -283,7 +288,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20425/default_fd0859a8a050b41b42cc678a2c0c5f51ce41801a.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -298,7 +303,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20158/default_31f4acd7a71628261771488a4d0f37f63bff1598.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -312,7 +317,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -326,7 +331,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19870/default_d05f6f09935776629f62e8aed365805502c14921.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -340,7 +345,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -354,7 +359,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -368,7 +373,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20048/default_d9e0956c82c17d568b62f3b0d5e2080c1e501e59.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -382,7 +387,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -396,7 +401,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -410,7 +415,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -431,7 +436,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19926/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -445,7 +450,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -459,7 +464,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20039/default_a7a70921d2d3189665c78015850dc968f41705a1.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -488,7 +493,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19868/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
@@ -502,7 +507,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
-  detection_source_url: github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
+  detection_source_url: https://github.com/ThisIsSimple/alto-backend/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: JuniorEinstein
   last_updated_on: 2021-03-16 09:58:49.000000000 Z
