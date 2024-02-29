@@ -26,7 +26,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ThisIsSimple/alto-backend](https://github.com/ThisIsSimple/alto-backend)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|29<br/>Tools used|01/05/24 <br/>Report generated|
+|29<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -91,7 +91,7 @@ Full tech stack [here](/techstack.md)
 |[certifi](https://pypi.org/project/certifi)|v2020.12.5|03/16/21|JuniorEinstein |MPL-2.0|[CVE-2023-37920](https://github.com/advisories/GHSA-xqr8-7jwr-rhp7) (High)<br/>[CVE-2022-23491](https://github.com/advisories/GHSA-43fp-rhv2-5gv8) (Moderate)|
 |[cffi](https://pypi.org/project/cffi)|v1.14.5|03/16/21|JuniorEinstein |MIT|N/A|
 |[chardet](https://pypi.org/project/chardet)|v4.0.0|03/16/21|JuniorEinstein |LGPL-2.1|N/A|
-|[cryptography](https://pypi.org/project/cryptography)|v3.4.6|03/16/21|JuniorEinstein |BSD-3-Clause,Apache-2.0|[CVE-2023-0286](https://github.com/advisories/GHSA-x4qr-2fvf-3mr5) (High)<br/>[CVE-2023-23931](https://github.com/advisories/GHSA-w7pp-m8wf-vj6r) (Moderate)<br/>[CVE-2023-49083](https://github.com/advisories/GHSA-jfhm-5ghh-2f97) (Moderate)<br/>[](https://github.com/advisories/GHSA-jm77-qphf-c4w8) (Low)<br/>[](https://github.com/advisories/GHSA-v8gr-m533-ghj9) (Low)<br/>[](https://github.com/advisories/GHSA-5cpq-8wj7-hf2v) (Low)|
+|[cryptography](https://pypi.org/project/cryptography)|v3.4.6|03/16/21|JuniorEinstein |BSD-3-Clause,Apache-2.0|[CVE-2023-0286](https://github.com/advisories/GHSA-x4qr-2fvf-3mr5) (High)<br/>[CVE-2023-50782](https://github.com/advisories/GHSA-3ww4-gg4f-jr7f) (High)<br/>[CVE-2023-49083](https://github.com/advisories/GHSA-jfhm-5ghh-2f97) (Moderate)<br/>[CVE-2023-23931](https://github.com/advisories/GHSA-w7pp-m8wf-vj6r) (Moderate)<br/>[CVE-2024-0727](https://github.com/advisories/GHSA-9v9h-cgj8-h64p) (Moderate)<br/>[](https://github.com/advisories/GHSA-v8gr-m533-ghj9) (Low)<br/>[](https://github.com/advisories/GHSA-5cpq-8wj7-hf2v) (Low)<br/>[](https://github.com/advisories/GHSA-jm77-qphf-c4w8) (Low)|
 |[defusedxml](https://pypi.org/project/defusedxml)|v0.7.0|03/16/21|JuniorEinstein |Python-2.0|N/A|
 |[django-allauth](https://pypi.org/project/django-allauth)|v0.44.0|03/16/21|JuniorEinstein |MIT|N/A|
 |[django-cors-headers](https://pypi.org/project/django-cors-headers)|v3.7.0|03/16/21|JuniorEinstein |MIT|N/A|
